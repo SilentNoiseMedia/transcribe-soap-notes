@@ -66,8 +66,8 @@ export function ProcessingStatus({
         <div className="mt-4 flex items-center gap-2 text-xs text-muted-foreground">
           <div className="flex gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
-            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse delay-100" />
-            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse delay-200" />
+            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse [animation-delay:100ms]" />
+            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse [animation-delay:200ms]" />
           </div>
           <span>Processing may take a few minutes depending on audio length</span>
         </div>
